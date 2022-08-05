@@ -12,7 +12,7 @@ const NavigationDesktop=()=>{
             <div className="flex-1 flex justify-end">
                 {
                     items.map(it=>(
-                        <div className="p-8">
+                        <div className="pt-8 pb-8 pl-16 pr-16">
                             <span className="opacity-70 text-white text-md">
                                 {it}
                             </span>

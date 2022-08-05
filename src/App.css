@@ -204,7 +204,7 @@ nav{
   color: var(--primary-color);
   font-size: 1.5em;
   text-align: center;
-  margin: 3em 2em 0 2em;
+  margin: 3em 3em 0 3em;
 
 }
 .top-wave{
@@ -256,7 +256,7 @@ nav{
   margin-right: -25%;
 }
 .little-text{
-  font-size: 0.6em;
+  font-size: 0.4em;
 }
 
 .little-text-xs{
@@ -404,6 +404,12 @@ nav{
 }
 
 @media only screen and (min-width: 1024px) {
+  .accent-wave-top{
+    position: absolute;
+    bottom: -150px;
+    left: 1px;
+    width: 100%;
+  }
   .formula-section{
     height: 110vh;
   }
@@ -413,9 +419,10 @@ nav{
   }
   #shape-middle{
     position: absolute;
-    width: 40%;
-    top:-15%;
-    left: 30%;
+    width: 35%;
+    top:35%;
+    left: 35%;
+    z-index: 1;
   }
   .red-rotated-2{
     width: 30%;
@@ -453,14 +460,22 @@ nav{
     z-index: 0;
   }
   .little-text{
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .little-text-xs{
-    font-size: 1em;
+    font-size: 0.7em;
     font-weight: bold;
   }
   .formula-section{
     padding-left: 2em;
     padding-right: 2em;
+  }
+  #personal-inspiration{
+
+    margin: 2em 5em 0 5em;
+  
+  }
+  .formula-section{
+    overflow-y: hidden;
   }
 }

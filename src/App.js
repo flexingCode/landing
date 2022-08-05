@@ -110,7 +110,7 @@ function App() {
           </section>
           <div className='accent-bg md:flex md:pt-8 relative'>
             <div className='flex items-center'>
-              <p className='text-white pt-8 md:pt-0 text-center md:text-left md:text-xl pb-8 md:pr-24 md:pl-10'>
+              <p className='text-white pt-8 md:pt-0 text-center md:text-left md:text-xl pb-8 md:pr-36 md:pl-36'>
                 <b className='md:text-2xl'>At Geko Ventures we pour over 20 years of knowledge in technology,</b>awesome contacts, keen investors, and proven business methodologies to gear up for a winning and lasting solutions.
               </p>
             </div>

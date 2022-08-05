@@ -32,7 +32,7 @@ const TeamGrid=()=>{
             {
                 team.map(el=>(
                     <div className='items-center flex flex-col mr-1 ml-2 mt-4 md:mr-12 md:ml-12 '>
-                        <img className='w-12 md:w-32 lg:w-52' src={el.avatar} />
+                        <img className='w-24 md:w-32 lg:w-52' src={el.avatar} />
                         <div className='mt-4 '>
                             <p className='little-text text-center text-blue-500	font-bold'>
                                 {el.name}
